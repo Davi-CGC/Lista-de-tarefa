@@ -1,9 +1,51 @@
 .container {
     width: 400px;
     height: 200px;
-    background-color: #3b5aaf;
+    background-color: #8c00ff;
     margin: 20px auto;
     padding: 20px;
     border-radius: 8px;
     margin-top: 200px;
+}
+
+.inserir-tarefa {
+    display: flex;
+    width: 520%;
+    gap: 16px;
+
+}
+
+.inserir-tarefa input {
+    flex: 1;
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+    height: 40px;
+    width: 20px;
+}
+
+.inserir-tarefa button {
+    padding: 8px 16px;
+    background-color: #000000;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.remover{
+    background-color: #8400ff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 4px 8px;
+    cursor: pointer;
+}
+
+.editar{
+    background-color: #a15d5d;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 4px 8px;
+    cursor: pointer;
 }
